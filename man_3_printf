@@ -4,6 +4,9 @@ _printf - This function receives a formatted string or character.
 #include main.h
 int printf(const char *format, ...);
 
+AUTHORS
+Kolton Rhodes, Mike Bilbee, Teylor Chapman-Bilbee
+
 DESCRIPTION
 
 The function _printf() receives a character or string and concatenates it with the  different arguments passed to it as a second option and then prints each of the     formatted characters.This function stores the formatted result in a buffer and pass the output to standard  write()  function  in‐cluded in <unistd.h> library.

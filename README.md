@@ -1,4 +1,4 @@
-# :sparkle: Printf project for Holberton School :sparkle:
+# :sparkles: Printf project for Holberton School :sparkles:
 
 ## General Description
 The purpose of this project is to create our own version of printf. The function ```int printf(const char *format, ...)``` sends a formatted output to stdout. The function will handle the following conversion specifiers: `c`, `s`, `%`, `d`, and `i`.
