@@ -1,16 +1,17 @@
 #include "main.h"
+
 /**
- * print_i - function
- * @va_list: allows the function to access variable arguments
- * passed to it via the 'va_arg' macro
- * Description: prints an integer
- * Return:number chars and digits
+* print_i - function
+* @i: integer
+* Description: prints an integer
+* Return: number chars and digits
 */
 
-int print_i(va_list)
+int print_i(va_list i)
+
 {
 int t[10];
-int var1, op, f, sum, count;
+int var1, op1, f, sum, count;
 
 f = va_arg(i, int);
 count = 0;
@@ -25,21 +26,23 @@ t[var1] = (f / op1) % 10;
 
 if (f < 0)
 {
-_putchar('-')
+_putchar('-');
 count++;
 for (var1 = 0; var1 < 10; var1++)
 t[var1] *= -1;
 }
 
-for (var = 0, sum = 0, var1 < 10;  var1++)
+for (var1 = 0, sum = 0; var1 < 10; var1++)
 {
 sum += t[var1];
 if (sum != 0 || var1 == 9)
 {
 _putchar('0' + t[var1]);
-count++
+count++;
 }
+
 }
 
 return (count);
+
 }

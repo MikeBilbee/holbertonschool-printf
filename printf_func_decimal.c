@@ -12,7 +12,7 @@ int t[10];
 int var1, op1, f, sum, count;
 
 f = va_arg(d, int);
-count + 0;
+count = 0;
 op1 = 1000000000;
 t[0] = f / op1;
 for (var1 = 1; var1 < 10; var1++)
