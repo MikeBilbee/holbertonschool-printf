@@ -4,7 +4,7 @@
  * print_c - function
  * @c: Char
  * description: print char
- * return: 1, always
+ * Return: 1, always
  */
 
 int print_c(va_list c)
@@ -18,7 +18,7 @@ return (1);
  * print_s - function
  * @s: string
  * description: prints string
- * return: numbers and characters printed
+ * Return: numbers and characters printed
  */
 
 int print_s(va_list s)
@@ -39,7 +39,7 @@ return (count);
  * print_p - function
  * @p: arguments
  * description: prints percent symbol
- * return: characters printed
+ * Return: characters printed
  */
 
 int print_p(va_list p)
